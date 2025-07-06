@@ -10,12 +10,12 @@ function Bulb() {
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <div
         style={{
-          width: '100px',
-          height: '100px',
-          borderRadius: '50%',
+          width: '70px',
+          boxShadow: isOn ? '0 0 20px red' : 'none',
+          height: '50px',
           margin: '20px auto',
           backgroundColor: isOn ? 'red' : 'gray',
-          boxShadow: isOn ? '0 0 20px red' : 'none',
+           borderRadius: '50%',
         }}
       ></div>
 
